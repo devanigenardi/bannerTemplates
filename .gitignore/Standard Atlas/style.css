@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+.banner {
+    width:298px;
+    height:248px;
+    border:1px solid #000;
+    background:#eaeadc;
+    overflow:hidden;
+    display:block !important;
+}
+
+#loader-container {
+    display:none;
+}
+
+#btn-exit{
+    width:298px;
+    height:248px;   
+    cursor:pointer;
+    background:red;
+    opacity:0;
+}
+
+#noscripted{
+    display:none;
+}
+
+#copy-1{
+    top:70px;
+    margin:0 auto;
+    left:0;
+    right:0;
+    width:229px;
+    height:93px;
+    background:url(copy01.png);
+}
+
+#legend{
+    top:230px;
+    width:300px;
+    height:20px;
+    text-align:center;
+}
+
+#legend p{
+    color:#848689;
+    font-size:10px;
+}

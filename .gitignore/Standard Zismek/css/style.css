@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+.banner {
+    width:298px;
+    height:248px;
+    border:1px solid #000;
+    background:#eaeadc;
+    overflow:hidden;
+    display:block !important;
+}
+
+#loader-container {
+    display:none;
+}
+
+#btn-exit{
+    width:298px;
+    height:248px;   
+    cursor:pointer;
+    opacity:0;
+}
+
+#copy-1{
+    top:50px;
+    left:0;
+    width:283px;
+    height:135px;
+    background: url(../img/copy01.png);
+    opacity:0;
+}
+
+#legend{
+    top:210px;
+    width:300px;
+    height:20px;
+    text-align:center;
+}
+
+#legend p{
+    color:#848689;
+    font-size:10px;
+}
+
+ 
